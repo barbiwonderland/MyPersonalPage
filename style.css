@@ -1,3 +1,22 @@
+.dark-mode  {
+	
+	color:#666;
+	background-color: white;
+	border:none!important;
+	font-size: 20px;
+	font-weight: 700;
+
+  }
+  .dark-mode:hover{
+	  color:white;
+	  background-color:black;
+  }
+ 
+.dark-m{
+	background-color: rgb(46, 43, 43)!important;
+	color: white!important;
+	
+}
 
 .perfil {
 	width: 150px;

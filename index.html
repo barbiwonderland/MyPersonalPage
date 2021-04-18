@@ -1,6 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+	<!-- Bootstrap Icons -->
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css">
 	<!-- Head todo la info que es para el navegador y no se ve, salvo el titulo. -->
 	<meta charset="UTF-8">
 	<title>Barbara Bottazzi</title>
@@ -16,21 +18,22 @@
 </head>
 <!-- <body> Todo lo que se ve en la pantalla del usuario -->
 <body>
-<header>
+<header >
 	<div class="container">
-		<div class="row top">
+		<div class="row top ">
 			
 			<div class="col-md-4"><a href="#home" data-ancla="home" class="off">
 				<img src="#" alt="" class="logo"></a></div>
-			<div class="col-md-3"></div>
+		
 			<div class="col-md-5">
 				<ul class='botonera'>
 					<li><a href="#nosotros" data-ancla="nosotros">Sobre mi</a></li>
 					<li><a href="#servicios" data-ancla="servicios">Skills</a></li>
 					<li><a href="#contacto" data-ancla="contacto">Contacto</a></li>
-
 				</ul>
-
+			</div>
+			<div class="col-md-3" >
+				<button  class="dark-mode " id="DarkButton" onclick="myFunction()">  <i class="bi bi-moon-stars"></i></button>
 			</div>
 		</div>
 	</div>
@@ -167,6 +170,7 @@
   crossorigin="anonymous"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/js/bootstrap.min.js" integrity="sha384-a5N7Y/aK3qNeh15eJKGWxsqtnX/wWdSZSKp+81YjTmS15nvnvxKHuzaWwXHDli+4" crossorigin="anonymous"></script>
 <script>
+	
 	// A $( document ).ready() block.
 $(document).ready(function() {    
 $('.top a').click(function(e){
@@ -177,6 +181,13 @@ $('.top a').click(function(e){
     });
 
 });
+
+$('#DarkButton').click(function()
+{
+	element=document.getElementsByClassName("orange");
+	$(element).toggleClass("dark-m ");
+});
+
 	
 </script>
 </body>
