@@ -1,0 +1,240 @@
+
+.perfil {
+	width: 150px;
+	height: 150px;
+	margin-top: 50px;
+
+}
+.proyectos a{
+	text-decoration: none;
+	color: black;
+	text-align: center;
+	align-items: center;
+	
+}
+.proyectos img{
+	height: 25vh;
+	width: 20vw;
+	object-fit: cover;
+	margin-bottom: 10%!important;
+	object-position: center;
+	display: flex;
+	margin: auto;
+}
+
+html{
+	scroll-behavior: smooth;
+
+}
+
+body{
+	background: #eeeeee;
+	font-family: 'Open Sans', sans-serif;
+
+}
+.logo{
+	width: 40px;
+}
+
+.botonera li{
+	display: inline-block;
+	margin-left: 8px;
+	font-weight: 700;
+	font-size: 20px;
+}
+.botonera li a{
+	color: #666;
+
+}
+.botonera li a:hover{
+	color: black;
+	text-decoration: none;
+}
+
+
+header{
+	background: white; 
+	padding-top: 15px;
+	padding-bottom: 10px;
+	position: fixed;
+	width: 100%;
+	z-index: 34242;
+}
+
+.principal{
+	background: black;
+	opacity: .8;
+	height: 90vh;
+	background: url("https://wallpapercave.com/wp/wp6784383.jpg")no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+ 
+}
+
+.vertical-centered-text {
+  -ms-display: flex;
+  display: flex;
+  /* alineacion vertical */
+  align-items: center;
+   /* alineacion horizontal */
+  justify-content: center;
+}
+
+.cta{
+	text-align: center;
+}
+h1{
+	font-weight: 700;
+	font-size: 50px;
+	color: white
+}
+.prueba{
+	height: 200px;
+	background-color: red;
+	
+}
+
+.orange{
+
+	background: purple;
+}
+
+.nosotros{
+	width: 100%;
+	height: 70vh;
+	text-align: center;
+	padding-top: 50px;
+	color: white;
+
+}
+.nosotros h1{
+	font-weight: 100;
+	font-size: 30px;
+	padding-top: 1%;
+}
+.servicios{
+	text-align: center;
+	padding-top: 150px;
+	padding-bottom: 50px;
+}
+.servicios img{
+	width: 8vw;
+	text-align: center;
+}
+
+.subt{
+	color: #666;
+	font-weight: 100;
+	text-align: center;
+	margin-bottom: 2%;
+	
+}
+.servicios .images{
+	padding-top: 30px;
+}
+
+.images .col-md-3{
+	padding-top: 20px;
+
+}
+.social{
+	text-align: center;
+
+
+	
+}
+.social img{
+	width: 30%;
+	text-align: center;
+	
+}
+
+footer{
+	
+	height: 40vh;
+	padding-top: 30px;
+	align-items: center;
+	display: flex;
+}
+footer a svg{
+	color:white;
+	width: 6vw;
+	height: 6vh;
+	
+}
+footer h1{
+	text-align: center;
+	font-size: 25px;
+	color:white;
+	font-weight: normal;
+	text-transform: uppercase;
+}
+
+#home {
+	color: white;
+}
+.col-xs-4{
+	text-align: center;
+}
+
+
+/*@media only screen 
+and (min-device-width : 414px) 
+and (max-device-width : 736px) { }
+@media only screen and (min-width: 324px) and (max-width: 736px) {*/
+@media only screen and (max-device-width: 480px), only screen and (min-device-width: 560px) and (max-device-width: 1136px) {
+  /* iPhone only */
+  /* Styles */
+  .off {
+    display: none !important;
+  }
+  .on {
+    display: block !important;
+  }
+  .col-md-2 {
+    width: 100%;
+  }
+  .social img{
+  	width: 100%;
+  }
+  .botonera li a {
+    font-size: 13px;
+}
+.nosotros{
+	height: auto;
+	overflow: hidden;
+	padding-top: 15px;
+	display: flex;
+	align-items: center;
+}
+#home{
+	padding-top: 65px;
+}
+
+h1{
+	font-size: 30px;
+}
+
+footer{
+	padding-top: 10px;
+}
+
+
+.proyectos img{
+	height: 20vh;
+	width: 50vw;
+	object-fit: cover;
+	margin-bottom: 10%!important;
+	object-position: center;
+	display: flex;
+	margin: auto;
+}
+
+.servicios img{
+	width: 25vw;
+	text-align: center;
+	margin-top: 5%;
+}
+}
