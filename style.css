@@ -1,8 +1,20 @@
+.carousel-inner{
+	width: 80vw;
+	margin-bottom: 2%;
+	
+}
+.carousel-item img{
+	width: 80vw;
+	height: 350px;
+	object-fit: contain;
+
+}
+
 .dark-mode  {
 	
 	color:#666;
 	background-color: white;
-	border:none!important;
+	border:none;
 	font-size: 20px;
 	font-weight: 700;
 
@@ -11,7 +23,10 @@
 	  color:white;
 	  background-color:black;
   }
- 
+  .dark-mode button:focus{
+	  outline:none;
+	  border-color: transparent!important;
+  }
 .dark-m{
 	background-color: rgb(46, 43, 43)!important;
 	color: white!important;
@@ -176,6 +191,8 @@ footer{
 	padding-top: 30px;
 	align-items: center;
 	display: flex;
+	width: 100%;
+
 }
 footer a svg{
 	color:white;
